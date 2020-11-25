@@ -21,7 +21,6 @@ export const Box = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  /* background: ${(props) => (props.color ? props.color : '#524E48')}; */
   background: ${(props) => (props.color ? props.color : '#8A95A5')};
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
 `;

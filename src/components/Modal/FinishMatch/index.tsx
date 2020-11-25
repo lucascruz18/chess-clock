@@ -1,15 +1,12 @@
 import React from 'react';
 
-// import { ButtonThird, ButtonSecondary } from "../../Buttons";
 import {
   Container,
   Overlay,
   Header,
   Title,
-  // Message,
   Content,
   Button,
-  // CancelButton,
   ButtonText,
 } from './styles';
 

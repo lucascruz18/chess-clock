@@ -5,6 +5,7 @@ import {
   Overlay,
   Header,
   Title,
+  Message,
   Content,
   Button,
   ButtonText,

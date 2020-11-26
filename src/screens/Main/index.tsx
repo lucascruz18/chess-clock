@@ -7,7 +7,7 @@ import ResetModal from '../../components/Modal/ResetModal';
 import FinishMatchModal from '../../components/Modal/FinishMatch';
 
 import {
-  Container, Content, Box, TimerText, ActionsWrapper,
+  Container, Content, Box, TimerTextTop, TimerText, ActionsWrapper,
 } from './styles';
 
 Icon.loadFont();
@@ -77,7 +77,7 @@ const Main: React.FC = () => {
     <Container>
       <Content>
         <Box onPress={() => setPlayer2(!player2)} color={player1 && '#D34E24'}>
-          <TimerText color={player1 ? '#FFF' : '#000'}>{timePlayer1}</TimerText>
+          <TimerTextTop color={player1 ? '#FFF' : '#000'}>{timePlayer1}</TimerTextTop>
         </Box>
         <ActionsWrapper>
           <Icon

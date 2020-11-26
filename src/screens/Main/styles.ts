@@ -28,7 +28,14 @@ export const Box = styled.TouchableOpacity`
 export const TimerText = styled.Text`
   font-size: 100px;
   font-weight: bold;
-  color: ${(props) => (props.color ? props.color : '#000')}
+  color: ${(props) => (props.color ? props.color : '#000')};
+`;
+
+export const TimerTextTop = styled.Text`
+  font-size: 100px;
+  font-weight: bold;
+  color: ${(props) => (props.color ? props.color : '#000')};
+  transform: rotate(180deg);
 `;
 
 export const ActionsWrapper = styled.View`
